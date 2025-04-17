@@ -1,0 +1,88 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Шапка */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo, .emblem {
+    height: 100px; /* Увеличенный размер изображений */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Основной контент */
+.content-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+main section {
+    flex: 3;
+}
+
+main aside {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Карта */
+#map iframe {
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Подвал */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

@@ -1,36 +1,101 @@
-# This is a basic workflow to help you get started with Actions
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Международная Московская IT-конференция «Инновации в цифровой экономике»</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Международная Московская IT-конференция «Инновации в цифровой экономике»</h1>
+                <img src="emblem.png" alt="Герб" class="emblem"> <!-- Герб или эмблема -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">О мероприятии</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#map">Место проведения</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-name: CI
+    <!-- Основной контент -->
+    <main>
+        <div class="content-container">
+            <!-- Основной текст -->
+            <section id="about">
+                <div class="container">
+                    <h2>О мероприятии</h2>
+                    <p>Приглашаем Вас принять участие в международной Московской IT-конференции «Инновации в цифровой экономике», посвященной развитию технологий искусственного интеллекта, блокчейна и кибербезопасности.</p>
+                    <p><strong>Заезд участников:</strong>29 апреля. Рабочие дни конференции:30 апреля – 4 мая 2025 г.</p>
+                    <p><strong>Научная программа конференции включает следующие направления:</strong></p>
+                    <ul>
+                        <li>Разработка и применение машинного обучения;</li>
+                        <li>Блокчейн-технологии и их практическое использование;</li>
+                        <li>Кибербезопасность и защита данных;</li>
+                        <li>Интернет вещей (IoT) и индустрия 4.0;</li>
+                        <li>Разработка мобильных приложений;</li>
+                        <li>Управление проектами в IT;</li>
+                        <li>Деловая игра для молодых специалистов;</li>
+                        <li>Проблемы преподавания IT-дисциплин в высшей школе.</li>
+                    </ul>
+                    <p><strong>Место проведения:</strong> Проведение конференции планируется в ЦВЗ «Манеж» — в центре города Москвы. Стоимость участия составляет 5000 руб. Дополнительная информация о стоимости и условиях участия будет представлена во втором информационном сообщении.</p>
+                    <p><strong>Формат проведения:</strong> Предполагается проведение конференции в гибридном формате (очное и онлайн участие).</p>
+                    <p><strong>Материалы конференции:</strong> По итогам работы планируется издание сборника тезисов конференции (сборник будет размещен в РИНЦ). Кроме того, материалы конференции (развернутые статьи) будут опубликованы в журнале «Информационные технологии».</p>
+                    <p><strong>Для участия в конференции Вам необходимо:</strong></p>
+                    <ol>
+                        <li>Зарегистрироваться на сайте конференции — до 30 сентября 2025 г;</li>
+                        <li>Направить tex- и pdf- файлы тезисов доклада объемом до 2 стр. (для лекторов – до 4 стр.), оформленные в соответствии с требованиями, по адресу ITCONFERENCE@mail.ru до 30 сентября 2025 г;</li>
+                        <li>После уведомления о принятии тезисов к публикации перечислить оргвзнос за участие в конференции в размере 3000 руб. до 30 сентября 2025 г. на расчетный счет ФГБОУ ВО «МГТУ им. Н.Э. Баумана».</li>
+                    </ol>
+                </div>
+            </section>
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+            <!-- Боковая панель -->
+            <aside class="sidebar">
+                <div class="container">
+                    <h3>Организаторы</h3>
+                    <p>Мероприятие проводится при поддержке:</p>
+                    <ul>
+                        <li>Московский государственный университет</li>
+                        <li>Московский физико-технический институт (МИФТИ)</li>
+                        <li>Российская академия наук</li>
+                        <li>Партнеры и спонсоры</li>
+                    </ul>
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+                    <h3>Контакты</h3>
+                    <p>Email: ITCONFERENCE@mail.ru</p>
+                    <p>Телефон: +7 (495) 733-85-97</p>
+                </div>
+            </aside>
+        </div>
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+        <!-- Карта -->
+        <section id="map">
+            <div class="container">
+                <h2>Как нас найти</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2511.597759872826!2d37.6173!3d55.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc3c1b9c5d%3A0x4e6bb7f0a3e4e2a1!2z0JzQvtGB0LrQstCwINC_0YAuLCAx!5e0!3m2!1sru!2sru!4v1697030000000" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Московская IT-конференция. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
